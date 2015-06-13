@@ -1,6 +1,0 @@
-c:\users\oag\documents\visual studio 2012\Projects\ATSCheckPoint3\ATSCheckPoint3\bin\Debug\ATSCheckPoint3.exe.config
-C:\Users\oag\Documents\Visual Studio 2012\Projects\ATSCheckPoint3\ATSCheckPoint3\bin\Debug\ATSCheckPoint3.exe
-C:\Users\oag\Documents\Visual Studio 2012\Projects\ATSCheckPoint3\ATSCheckPoint3\bin\Debug\ATSCheckPoint3.pdb
-C:\Users\oag\Documents\Visual Studio 2012\Projects\ATSCheckPoint3\ATSCheckPoint3\obj\Debug\ATSCheckPoint3.csprojResolveAssemblyReference.cache
-C:\Users\oag\Documents\Visual Studio 2012\Projects\ATSCheckPoint3\ATSCheckPoint3\obj\Debug\ATSCheckPoint3.exe
-C:\Users\oag\Documents\Visual Studio 2012\Projects\ATSCheckPoint3\ATSCheckPoint3\obj\Debug\ATSCheckPoint3.pdb
