@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 
 namespace ATSCheckPoint3
 {
-    public class Terminal 
+    public enum StateTerminal
     {
+        On,
+        Off,
+        Call,
+        Busy
     }
 }

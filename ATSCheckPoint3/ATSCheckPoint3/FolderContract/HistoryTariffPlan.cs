@@ -31,8 +31,7 @@ namespace ATSCheckPoint3
         public HistoryTariffPlan(Subscriber subscriber, DateTime date, TariffPlan plan)
         {
             History.Add(date, plan);
-            this.TheSubscriber = subscriber;
+            TheSubscriber = subscriber;
         }
-
     }
 }

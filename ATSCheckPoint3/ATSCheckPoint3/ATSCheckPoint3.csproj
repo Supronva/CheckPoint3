@@ -41,21 +41,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AlwaysConnectedPlan.cs" />
-    <Compile Include="Client.cs" />
-    <Compile Include="HistoryTariffPlan.cs" />
-    <Compile Include="OptimumPlan.cs" />
-    <Compile Include="Subscriber.cs" />
-    <Compile Include="SubscriberNumber.cs" />
-    <Compile Include="ATS.cs" />
-    <Compile Include="Contract.cs" />
-    <Compile Include="Port.cs" />
+    <Compile Include="FolderTariff\AlwaysConnectedPlan.cs" />
+    <Compile Include="FolderAts\CallEventArgs.cs" />
+    <Compile Include="FolderContract\Client.cs" />
+    <Compile Include="FolderContract\HistoryTariffPlan.cs" />
+    <Compile Include="FolderTariff\OptimumPlan.cs" />
+    <Compile Include="EnumState\StateTerminal.cs" />
+    <Compile Include="FolderContract\Subscriber.cs" />
+    <Compile Include="FolderContract\SubscriberNumber.cs" />
+    <Compile Include="FolderAts\Ats.cs" />
+    <Compile Include="FolderContract\Contract.cs" />
+    <Compile Include="FolderAts\Port.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StatePort.cs" />
-    <Compile Include="TariffPlan.cs" />
-    <Compile Include="Terminal.cs" />
-    <Compile Include="UniversalPlan.cs" />
+    <Compile Include="EnumState\StatePort.cs" />
+    <Compile Include="FolderTariff\TariffPlan.cs" />
+    <Compile Include="FolderAts\Terminal.cs" />
+    <Compile Include="FolderTariff\UniversalPlan.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

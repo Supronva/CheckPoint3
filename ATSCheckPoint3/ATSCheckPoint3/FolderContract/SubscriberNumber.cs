@@ -11,7 +11,7 @@ namespace ATSCheckPoint3
 
         public SubscriberNumber(int number)
         {
-            this.Number = number;
+           Number = number;
         }
     }
 }

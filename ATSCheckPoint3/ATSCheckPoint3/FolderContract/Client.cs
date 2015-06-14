@@ -7,12 +7,23 @@ namespace ATSCheckPoint3
 {
     public class Client
     {
+        public int IdPerson { get; set; }
         public string Person { get; set; }
+        public int Age {
+            get { return Age; }
+            set
+            {
+                if(value < 18)
+                    throw new Exception("It must be 18 years");
+            }
+        }
         public List<Contract> Contracts { get; set; }
 
-        public Client(string person)
+        public Client(int id,string person, int age)
         {
-            Person = person;
+            Age = age;
+            IdPerson = id;
+            Person = person;  
         }
 
         public void AddContract(Contract contract)
